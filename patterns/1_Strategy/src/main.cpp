@@ -9,7 +9,7 @@
 #include "Rectangle.h"
 #include "ShapesBox.h"
 
-int main() {
+void main() {
     /* We have an object named ShapesBox which take list of pointers to objects which implements IShape interface,
      * As interface provides method .getArea(), we can return total area of provided
      *

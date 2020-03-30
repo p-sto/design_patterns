@@ -16,7 +16,9 @@ This pattern works nicely with dependency injection.
 
 Strategy focus on a composition over inheritance in order to effectively reuse code.
 
-In a implemented example, IShape interface is defined, providing methods ``getCircumference``
+### Example implementation
+
+In an implemented example, IShape interface is defined, providing methods ``getCircumference``
 and ``getArea``. Interface is implemented by ``Circle`` and ``Rectangle`` classes, which
 calculate area and circumference accordingly to class specific shapes.
 ``ShapesBox`` is a class, which object accepts list of IShape compatible objects, and

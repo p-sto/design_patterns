@@ -4,6 +4,7 @@ Design patterns
 Implementation of design patterns in C++.
 
 Inspired by series of Christopher Okhravi's [video series](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+which is based on book ``Head first - design pattern``
 
 ### Table of contents:
 
