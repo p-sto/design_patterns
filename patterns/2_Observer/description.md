@@ -7,6 +7,8 @@ The observer pattern defines one to many dependency between objects, so that
 when one object changes state all of it's dependencies are notified and updated
 automatically. 
 
+Pattern type - Behavioral
+
 ### Details
 
 This pattern focuses on `push` architecture instead of pooling. We distinguish observable
@@ -32,3 +34,4 @@ fake data to "model" calculations (in fact it'll perform some loop run with dela
 ProcessClient (observer) class implements `IProcessClient` interface, which provides method
 `update()`.
 
+Execute ``make`` to compile. 

@@ -7,6 +7,7 @@ Strategy design pattern defines family of algorithms, encapsulates each one of i
 and allow to use them interchangeably. Strategy lets the algorithms vary independently 
 from client that use it.
 
+Pattern type - Behavioral
 
 ### Details
 

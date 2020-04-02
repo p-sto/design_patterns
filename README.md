@@ -1,7 +1,7 @@
 Design patterns
 ===============
 
-Implementation of design patterns in C++.
+Implementation of design patterns in C++17.
 
 Inspired by series of Christopher Okhravi's [video series](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
 which is based on book ``Head first - design patterns``
@@ -18,3 +18,15 @@ which is based on book ``Head first - design patterns``
 8. [Adapter](patterns/8_Adapter/description.md)  
 9. [Facade](patterns/9_Facade/description.md)
 10. [Proxy](patterns/10_Proxy/description.md)
+
+
+There are 3 types of design patterns:
+
+Creational:
+* Dealing with problem of creating objects
+
+Structural:
+* Focus on relationships between objects
+
+Behavioral:
+* Focus on communication between objects

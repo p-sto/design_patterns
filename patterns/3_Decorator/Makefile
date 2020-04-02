@@ -3,7 +3,7 @@ CC := g++
 SRCEXT := cpp
 HEADEREXT := h
 
-TARGET = Strategy
+TARGET = Decorator
 BUILDDIR := build
 
 CFLAGS := -Wall -Werror -std=c++1z -O2 -g

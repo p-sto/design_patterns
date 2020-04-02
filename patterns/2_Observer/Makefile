@@ -16,14 +16,11 @@ OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
 
 $(TARGET): $(OBJECTS)
 	@echo " Linking..."
-	$(CC) $^ -o $(TARGET) $(LFLAGS) $(LDFLAGS) $(CUDAFLAGS)
-
-$(BUILDDIR)/%.o: $(SRCDIR)/%.$(NVSRCEXT)
-	$(NVCC) $(CUDAFLAGS) -c -o $@ $<
+	$(CC) $^ -o $(TARGET) $(LFLAGS) $(LDFLAGS)
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
 	@mkdir -p $(BUILDDIR)
-	$(CC) $(CFLAGS) $(INC) -c -o $@ $<
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
 	@echo " Cleaning...";

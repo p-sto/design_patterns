@@ -1,6 +1,8 @@
 Adapter design pattern
 ======================
 
+Adapter is also known as wrapper pattern.
+
 ### Definition
 
 Adapter converts interface of a class into another interface a client expects.
