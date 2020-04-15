@@ -13,7 +13,7 @@ which is based on book ``Head first - design patterns``
 - [X] [Decorator](patterns/3_Decorator/description.md)  
 - [X] [Factory](patterns/4_Factory/description.md)  
 - [X] [Abstract Factory](patterns/5_Abstract_Factory/description.md)  
-- [ ] [Singleton](patterns/6_Singleton/description.md)  
+- [X] [Singleton](patterns/6_Singleton/description.md)  
 - [ ] [Command](patterns/7_Command/description.md)  
 - [ ] [Adapter](patterns/8_Adapter/description.md)  
 - [ ] [Facade](patterns/9_Facade/description.md)
