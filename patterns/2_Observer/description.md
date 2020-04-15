@@ -14,6 +14,8 @@ Pattern type - Behavioral
 This pattern focuses on `push` architecture instead of pooling. We distinguish observable
 (aka subject) and observer(s) object.
 
+![](observer_uml.png)
+
 ### Example implementation
 
 Imagine a process which need to perform some calculations. Due to heaviness of a task,

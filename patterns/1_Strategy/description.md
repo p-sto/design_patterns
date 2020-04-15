@@ -15,6 +15,8 @@ In a nutshell - strategy decouples implementation and usage by providing unified
 interface, which family of algorithms have to implement in order to use them interchangeably.
 This pattern works nicely with dependency injection.
 
+![](strategy_uml.png)
+
 Strategy focus on a composition over inheritance in order to effectively reuse code.
 
 ### Example implementation
