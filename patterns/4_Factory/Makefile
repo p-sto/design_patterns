@@ -11,7 +11,7 @@ CFLAGS := -Wall -Werror -std=c++1z -O2 -g
 SRCDIR := src
 
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
-HEADERS = $(wildcard $(SRCDIR)/*.$(HEADEREXT))
+HEADERS := $(shell find $(SRCDIR) -type f -name *.$(HEADEREXT))
 OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
 
 $(TARGET): $(OBJECTS)
@@ -19,7 +19,7 @@ $(TARGET): $(OBJECTS)
 	$(CC) $^ -o $(TARGET) $(LFLAGS) $(LDFLAGS)
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
-	@mkdir -p $(BUILDDIR)
+	@mkdir -p "$(@D)"
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:

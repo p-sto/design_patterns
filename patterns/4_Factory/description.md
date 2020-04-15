@@ -26,10 +26,6 @@ called `Specification`. This method will return object of an interface `IVehicle
 Then we will implement concrete CarFabric implementations which will deliver particular
 car models based on `Specification`. Each Car will implement interface IVehicle.
 
-In example, `ToyotaFabric` and `NissanFabric` were implemented which creates
-`ToyotaCar` and `NissanCar` respectively. Both fabrics implements the same `ICarFabric`
-interface as well as both 'car' classes implements `IVehicle` interface.
-
-It would be just better if all models were represented by dedicated classes while
-`ToyotaCar` and `NissanCar` would be an abstract classes for models... It would
-probably illustrate fabric usage way better. Maybe the other day...
+Both fabrics create objects of an interface `IVehcile`. `ToyotaFabric` returns objects
+of a `ToyotaCar` and `NissanFabric` - `NissanCar`. Both of those `car` classes are
+abstractions for specific car implementations e.g. `PriusCar` or `JukeCar`.

@@ -7,8 +7,8 @@
 #ifndef DESIGN_PATTERN_NISSANFABRIC_H
 #define DESIGN_PATTERN_NISSANFABRIC_H
 
-#include "ICarFabric.h"
-#include "NissanCar.h"
+#include "../ICarFabric.h"
+#include "../../Products/Nissan/NissanCar.h"
 
 class NissanFabric: public ICarFabric {
 public:

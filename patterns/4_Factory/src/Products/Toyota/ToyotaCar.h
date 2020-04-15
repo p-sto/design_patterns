@@ -7,16 +7,16 @@
 #ifndef DESIGN_PATTERN_TOYOTACAR_H
 #define DESIGN_PATTERN_TOYOTACAR_H
 
-#include "IVehicle.h"
-#include "Specification.h"
+#include "../IVehicle.h"
+#include "../../Specification.h"
 
 class ToyotaCar: public IVehicle {
 public:
     ToyotaCar(Specification spec);
     ~ToyotaCar() {};
     Specification getSpec();
-    bool drive();
-private:
+    virtual void drive() = 0;
+protected:
     Specification spec;
 };
 

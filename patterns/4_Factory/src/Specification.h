@@ -8,10 +8,9 @@
 #define DESIGN_PATTERN_SPECIFICATION_H
 
 #include <string>
-#include "CarModels.h"
 
 struct Specification {
-    CarModels model;
+    std::string model;
     std::string color;
     std::string version;
 };

@@ -7,8 +7,8 @@
 #ifndef DESIGN_PATTERN_ICARFABRIC_H
 #define DESIGN_PATTERN_ICARFABRIC_H
 
-#include "Specification.h"
-#include "IVehicle.h"
+#include "../Specification.h"
+#include "../Products/IVehicle.h"
 
 class ICarFabric {
 public:

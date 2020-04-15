@@ -14,8 +14,3 @@ NissanCar::NissanCar(Specification spec) {
 Specification NissanCar::getSpec() {
     return this->spec;
 }
-
-bool NissanCar::drive() {
-    std::cout << "I'm driving even more crazy!" << std::endl;
-    return true;
-}

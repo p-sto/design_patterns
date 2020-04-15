@@ -7,9 +7,9 @@
 #ifndef DESIGN_PATTERN_TOYOTAFABRIC_H
 #define DESIGN_PATTERN_TOYOTAFABRIC_H
 
-#include "ICarFabric.h"
-#include "ToyotaCar.h"
-#include "Specification.h"
+#include "../ICarFabric.h"
+#include "../../Products/Toyota/ToyotaCar.h"
+#include "../../Specification.h"
 
 class ToyotaFabric: public ICarFabric {
 public:
