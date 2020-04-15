@@ -22,11 +22,20 @@ which is based on book ``Head first - design patterns``
 
 There are 3 types of design patterns:
 
-Creational:
-* Dealing with problem of creating objects
+##### Creational:
+Dealing with problem of creating objects
 
-Structural:
-* Focus on relationships between objects
+- [Factory](patterns/4_Factory/description.md)
+- [Abstract Factory](patterns/5_Abstract_Factory/description.md)
+- [Singleton](patterns/6_Singleton/description.md)  
 
-Behavioral:
-* Focus on communication between objects
+##### Structural:
+Focus on relationships between objects
+
+- [Decorator](patterns/3_Decorator/description.md)  
+
+##### Behavioral:
+Focus on communication between objects
+
+- [Strategy](patterns/1_Strategy/description.md)
+- [Observer](patterns/2_Observer/description.md)  
