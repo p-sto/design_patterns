@@ -14,7 +14,7 @@ which is based on book ``Head first - design patterns``
 - [X] [Factory](patterns/4_Factory/description.md)  
 - [X] [Abstract Factory](patterns/5_Abstract_Factory/description.md)  
 - [X] [Singleton](patterns/6_Singleton/description.md)  
-- [ ] [Command](patterns/7_Command/description.md)  
+- [X] [Command](patterns/7_Command/description.md)  
 - [ ] [Adapter](patterns/8_Adapter/description.md)  
 - [ ] [Facade](patterns/9_Facade/description.md)
 - [ ] [Proxy](patterns/10_Proxy/description.md)
@@ -39,3 +39,4 @@ Focus on communication between objects
 
 - [Strategy](patterns/1_Strategy/description.md)
 - [Observer](patterns/2_Observer/description.md)  
+- [Command](patterns/7_Command/description.md)
