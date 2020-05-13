@@ -6,6 +6,8 @@ Implementation of design patterns in C++17.
 Inspired by series of Christopher Okhravi's [video series](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
 which is based on book ``Head first - design patterns``
 
+Some general notes and reflections regarding design patterns are [here](patterns/notes.md).
+
 ### Table of contents:
 
 - [X] [Strategy](patterns/1_Strategy/description.md)
@@ -15,7 +17,7 @@ which is based on book ``Head first - design patterns``
 - [X] [Abstract Factory](patterns/5_Abstract_Factory/description.md)  
 - [X] [Singleton](patterns/6_Singleton/description.md)  
 - [X] [Command](patterns/7_Command/description.md)  
-- [ ] [Adapter](patterns/8_Adapter/description.md)  
+- [X] [Adapter](patterns/8_Adapter/description.md)  
 - [ ] [Facade](patterns/9_Facade/description.md)
 - [ ] [Proxy](patterns/10_Proxy/description.md)
 
@@ -33,6 +35,7 @@ Dealing with problem of creating objects
 Focus on relationships between objects
 
 - [Decorator](patterns/3_Decorator/description.md)  
+- [Adapter](patterns/8_Adapter/description.md)
 
 ##### Behavioral:
 Focus on communication between objects
