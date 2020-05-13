@@ -13,10 +13,25 @@ If client is intended to perform an action, which requires usage of multiple
 interfaces (objects), then intention of facade is to provide hide all this logic behind e.x. one, unified
 of a new interface.
 
+It allows not to break the law of demeter.
+
 `Facade does not probide new functionality.`
 
-Example:
+![](facade.png)
 
-C client class may require to call method1 of a A class, method2 of a B class and method3 of C class.
-Additionally, those classes might be coupled together. To reduce client logic, we provide
-a simplified interface (facade) which deal with all this things under a single method.
+### Example implementation
+
+We can use Facade if we want to hide several actions behind dedicated method (or 
+different actions requiring multiple methods calls). Basically everything
+that consists of some smaller pieces put together for something bigger can
+be modelled by Facade. Image some complex machine (e.g. car) where performing
+some operation requires cooperation of multiple other elements.
+
+Assuming that engine launch requires some steps before:
+1. setting power to ON
+2. checking if engine is ready for run (e.g. there's no fail in system computer)
+3. loading some default engine computer params 
+4. launching ignition.
+
+We may create an `Engine` class which has method `launch()` which hides
+all required actions for starting engine.

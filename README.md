@@ -18,7 +18,7 @@ Some general notes and reflections regarding design patterns are [here](patterns
 - [X] [Singleton](patterns/6_Singleton/description.md)  
 - [X] [Command](patterns/7_Command/description.md)  
 - [X] [Adapter](patterns/8_Adapter/description.md)  
-- [ ] [Facade](patterns/9_Facade/description.md)
+- [X] [Facade](patterns/9_Facade/description.md)
 - [ ] [Proxy](patterns/10_Proxy/description.md)
 
 
@@ -36,6 +36,7 @@ Focus on relationships between objects
 
 - [Decorator](patterns/3_Decorator/description.md)  
 - [Adapter](patterns/8_Adapter/description.md)
+- [Facade](patterns/9_Facade/description.md)
 
 ##### Behavioral:
 Focus on communication between objects
