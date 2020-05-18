@@ -10,7 +10,7 @@ Proxy provides a surrogate or placeholder for another object in order to control
 Proxy is about controlling an access. Not to confuse with adapter pattern, which is intended 
 to access specific interface with an interface which is not compatible.
 
-"Variations" of pattern:
+Variations of pattern:
 
  * Remote proxy - used for resources which are "outside". Proxy is responsible for dealing with
     connection to that remote resource.  
@@ -23,3 +23,12 @@ to access specific interface with an interface which is not compatible.
 Proxy pattern `implements additional` behaviour to control access to some resource.
 
 Proxy class has to implement the same interface as targeted object.
+
+![](proxy.png)
+
+### Example implementation
+
+As an example we'll be implementing client for `AssetManager` which will
+provide some `Asset` objects. Access  to this manager will be controlled via `AssetManagerAccessProxy`.
+Only authorised clients will be able to access assets.
+        
