@@ -20,7 +20,12 @@ Some general notes and reflections regarding design patterns are [here](patterns
 - [X] [Adapter](patterns/8_Adapter/description.md)  
 - [X] [Facade](patterns/9_Facade/description.md)
 - [X] [Proxy](patterns/10_Proxy/description.md)
-
+- [X] [Bridge](patterns/11_Bridge/description.md)
+- [ ] [Template Method]()
+- [ ] [Composite]()
+- [ ] [Iterator]()
+- [ ] [State]()
+- [ ] [Null Object]()
 
 There are 3 types of design patterns:
 
@@ -38,6 +43,7 @@ Focus on relationships between objects
 - [Adapter](patterns/8_Adapter/description.md)
 - [Facade](patterns/9_Facade/description.md)
 - [Proxy](patterns/10_Proxy/description.md)
+- [Bridge](patterns/11_Bridge/description.md)
 
 ##### Behavioral:
 Focus on communication between objects
