@@ -1,10 +1,14 @@
 Design patterns
 ===============
 
-Implementation of design patterns in C++17.
+Implementation of design patterns in C++17 and compiled with G++.
 
 Inspired by series of Christopher Okhravi's [video series](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
-which is based on book ``Head first - design patterns``
+which is based on book ``Head first - design patterns``. Some additional
+patterns included (not covered in video series).
+
+General goal for ths repo is to refresh myself knowledge, have personal point
+of reference and have fun with C++ :)
 
 Some general notes and reflections regarding design patterns are [here](patterns/notes.md).
 
@@ -22,10 +26,18 @@ Some general notes and reflections regarding design patterns are [here](patterns
 - [X] [Proxy](patterns/10_Proxy/description.md)
 - [X] [Bridge](patterns/11_Bridge/description.md)
 - [ ] [Template Method]()
-- [ ] [Composite]()
+- [X] [Composite](patterns/13_Composite/description.md)
 - [ ] [Iterator]()
 - [ ] [State]()
 - [ ] [Null Object]()
+- [ ] [Visitor]()
+- [ ] [Flyweight]()
+- [ ] [Chain of responsibility]()
+- [ ] [Prototype]()
+- [ ] [Builder]()
+- [ ] [Mediator]()
+- [ ] [Interpreter]()
+- [ ] [Memento]()
 
 There are 3 types of design patterns:
 
@@ -44,6 +56,7 @@ Focus on relationships between objects
 - [Facade](patterns/9_Facade/description.md)
 - [Proxy](patterns/10_Proxy/description.md)
 - [Bridge](patterns/11_Bridge/description.md)
+- [Composite](patterns/13_Composite/description.md)
 
 ##### Behavioral:
 Focus on communication between objects

@@ -8,6 +8,7 @@ adding any new functionality.
 
 Facade hides complex interactions behind unified interface.
 
-Proxy is about placing an object between other object to control communication.
+Proxy is about placing an object between other objects to control communication,
+either an access or provide lazy evaluation of heavy operations.
 
-Decorator is a way of adding new behaviour without changing object implementation.
+Decorator is a way of adding new behaviour without changing object's implementation.
