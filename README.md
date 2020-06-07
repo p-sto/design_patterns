@@ -27,7 +27,7 @@ Additonal notes and reflections regarding design patterns are [here](patterns/no
 - [X] [Bridge](patterns/11_Bridge/description.md)
 - [X] [Template Method](patterns/12_Template_Method/description.md)
 - [X] [Composite](patterns/13_Composite/description.md)
-- [ ] [Iterator]()
+- [X] [Iterator](patterns/14_Iterator/description.md)
 - [ ] [State]()
 - [ ] [Null Object]()
 - [ ] [Visitor]()
