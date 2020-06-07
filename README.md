@@ -25,7 +25,7 @@ Some general notes and reflections regarding design patterns are [here](patterns
 - [X] [Facade](patterns/9_Facade/description.md)
 - [X] [Proxy](patterns/10_Proxy/description.md)
 - [X] [Bridge](patterns/11_Bridge/description.md)
-- [ ] [Template Method]()
+- [X] [Template Method](patterns/12_Template_Method/description.md)
 - [X] [Composite](patterns/13_Composite/description.md)
 - [ ] [Iterator]()
 - [ ] [State]()
@@ -64,3 +64,4 @@ Focus on communication between objects
 - [Strategy](patterns/1_Strategy/description.md)
 - [Observer](patterns/2_Observer/description.md)  
 - [Command](patterns/7_Command/description.md)
+- [Template Method](patterns/12_Template_Method/description.md)

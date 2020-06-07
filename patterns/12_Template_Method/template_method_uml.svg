@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="900" height="360" xmlns="http://www.w3.org/2000/svg">
+  <title>Template Method pattern</title>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        g{
+          stroke       : #000;
+        }
+        rect, path, circle{
+          fill         : #fff;
+          fill-opacity : 0;
+        }
+        rect{
+          stroke-width : 6;
+        }
+        path, circle, line{
+          stroke-width : 2;
+        }
+        text{
+          fill         : #000;
+          stroke-width : 0;
+          font-family  : sans-serif;
+        }
+        text.name{
+          font-size    : 25px;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.item{
+          font-size    : 25px;
+        }
+        text.visibility{
+          font-size    : 28px;
+          font-family  : monospace;
+          font-weight  : bold;
+          text-anchor  : middle;
+        }
+        text.abstract{
+          font-style   : italic;
+        }
+        text.note{
+          font-size    : 20px;
+        }
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(40,40)">
+    <rect width="320" height="202" />
+    <line x1="0" x2="320" y1="60" y2="60" />
+    <line x1="0" x2="320" y1="80" y2="80" />
+    <text x="160" y="45"  class="name abstract">AbstractClass</text>
+    <text x="30"  y="115" class="visibility">+</text>
+    <text x="60"  y="115" class="item">templateMethod()</text>
+    <text x="30"  y="150" class="visibility">#</text>
+    <text x="60"  y="150" class="item abstract">method1()</text>
+    <text x="30"  y="185" class="visibility">#</text>
+    <text x="60"  y="185" class="item abstract">method2()</text>
+  </g>
+  <g transform="translate(540,40)">
+    <rect width="320" height="167" />
+    <line x1="0" x2="320" y1="60" y2="60" />
+    <line x1="0" x2="320" y1="80" y2="80" />
+    <text x="160" y="45" class="name">ConcreteClass</text>
+    <text x="30" y="115" class="visibility">#</text>
+    <text x="60" y="115" class="item">method1()</text>
+    <text x="30" y="150" class="visibility">#</text>
+    <text x="60" y="150" class="item">method2()</text>
+  </g>
+  <g transform="translate(360,125)">
+    <desc>class Adapter implements Target</desc>
+    <path d="M 5 0 l 30 -15 l 0 30 z" />
+    <path d="M 35 0 L 180 0" />
+  </g>
+  <g transform="translate(420,260)">
+    <desc>a source example of AbstractClass#templateMethod()</desc>
+    <!-- paper frame with a dog ear -->
+    <path d="M 300 20 l 0 50 l -300 0 l 0 -70 l 280 0 c 5 5 5 15 0 20 c 5 2 15 2 20 0" />
+    <!-- folding line -->
+    <path d="M 280 0 l 20 20" stroke-linecap="round" />
+    <!-- connector -->
+    <path d="M 0 35 L -85 35 L -85 -102" stroke-dasharray="6,3" />
+    <circle cx="-85" cy="-110" r="8" />
+    <text x="20" y="30" class="note">this.method1();</text>
+    <text x="20" y="55" class="note">this.method2();</text>
+  </g>
+</svg>
