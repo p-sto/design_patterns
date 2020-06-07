@@ -6,6 +6,8 @@ Abstract Factory design pattern
 Provides an interface for creating families of related or dependent objects without
 specifying their concrete classes.
 
+Pattern type - Creational
+
 ### Details
 
 Abstract factory allows to create different objects of a defined interfaces
@@ -26,8 +28,8 @@ Lets define 3 motors:
  - medium
  - big
  
-Small will work only with 5 speed manual gearbox, medium with 6 speed manual
-while biggest engine will be available with either 6 speed manual or 
+Small one will work only with 5 speed manual gearbox, medium with 6 speed manual
+while biggest engine will be available either with 6 speed manual or 
 7 speed automatic.
 
 As it's shown, some objects (engine types and transmission) can only work together

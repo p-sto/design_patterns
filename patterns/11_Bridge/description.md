@@ -6,6 +6,8 @@ Bridge design pattern
 Bridge design pattern decouples an abstraction from its implementation
 so that these two can vary independently.
 
+Pattern type - Structural
+
 ### Details
 
 Heaving some defined abstraction (rather abstract class than interface)

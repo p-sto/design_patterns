@@ -18,6 +18,8 @@ to treat aggregated and singular objects the same way.
 It can be used every time we deal with tree like hierarchy
 and something-has-something relation.
 
+Pattern type - Structural
+
 ### Example implementation
 
 In a given example YAML-like parser containing only integer values

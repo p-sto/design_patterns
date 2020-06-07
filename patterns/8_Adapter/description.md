@@ -11,6 +11,8 @@ Adapter lets classes work together that couldn't otherwise because of incompatib
 `Major point is that Adapter does not implement new functionality, it does not extend
 interface.`
 
+Pattern type - Structural
+
 ### Details
 
 Adapter does not implement new functionality but allows to handle new interfaces/different
@@ -31,7 +33,3 @@ We'll define `IHDMI` and client implementing this interface.
 Next we'll have some `IDVI` object which we wish to cooperate with.
 To make such relation work we'll create `HDMItoDVI` adapter.
 Cour client will be named `HDMIMonitorClient` and our adaptee will be `DVIComputer`.
-
-To be honest - real DVI in fact implements HDMI video interface on a logical and electrical
-level so it mostly differs by plug (DVI allows also to send analog data so it's
-kind of hub of a several interfaces, though HDMI can send sound while DVI can't).

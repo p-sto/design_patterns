@@ -7,6 +7,8 @@ Defines the skeleton of an algorithm deferring some steps to subclasses.
 Template methods lets subclasses redefine certain steps of algorithm without
 changing the algorithm structure. 
 
+Pattern type - Behavioral
+
 ### Details
 
 Static elements of an algorithm are defined in base abstract class while what

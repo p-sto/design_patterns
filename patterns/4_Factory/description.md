@@ -7,6 +7,8 @@ The factory method design pattern defines interface for creating an object.
 But lets subclasses decide which class to instantiate. Factory method lets the class
 defer instantiation to subclasses.
 
+Pattern type - Creational
+
 ### Details
 
 Factory design pattern allows to hide logic responsible for creation of an object.

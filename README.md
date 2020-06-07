@@ -3,14 +3,14 @@ Design patterns
 
 Implementation of design patterns in C++17 and compiled with G++.
 
-Inspired by series of Christopher Okhravi's [video series](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
-which is based on book ``Head first - design patterns``. Some additional
+Inspired by series of Christopher Okhravi's [videos](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+which are based on book ``Head first - design patterns``. Some additional
 patterns included (not covered in video series).
 
-General goal for ths repo is to refresh myself knowledge, have personal point
+General goal for ths repo is to refresh some knowledge, have personal point
 of reference and have fun with C++ :)
 
-Some general notes and reflections regarding design patterns are [here](patterns/notes.md).
+Additonal notes and reflections regarding design patterns are [here](patterns/notes.md).
 
 ### Table of contents:
 
@@ -39,7 +39,6 @@ Some general notes and reflections regarding design patterns are [here](patterns
 - [ ] [Interpreter]()
 - [ ] [Memento]()
 
-There are 3 types of design patterns:
 
 ##### Creational:
 Dealing with problem of creating objects
@@ -49,7 +48,7 @@ Dealing with problem of creating objects
 - [Singleton](patterns/6_Singleton/description.md)  
 
 ##### Structural:
-Focus on relationships between objects
+Focusing on relationships between objects
 
 - [Decorator](patterns/3_Decorator/description.md)  
 - [Adapter](patterns/8_Adapter/description.md)
@@ -59,7 +58,7 @@ Focus on relationships between objects
 - [Composite](patterns/13_Composite/description.md)
 
 ##### Behavioral:
-Focus on communication between objects
+Focusing on communication between objects
 
 - [Strategy](patterns/1_Strategy/description.md)
 - [Observer](patterns/2_Observer/description.md)  

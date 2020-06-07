@@ -21,7 +21,7 @@ This pattern focuses on `push` architecture instead of pooling. We distinguish o
 Imagine a process which need to perform some calculations. Due to heaviness of a task,
 results cannot be provided instantly and in general it's hard to estimate expected time
 of arrival. In this case, process performing computing will be regarded
-as an observable, and it's responsibility is to notify when computing finishes.
+as an observable and it's responsibility is to notify when computing finishes.
 
 Process will have an interface - `IComputingProcess` and it'll provide methods:
 * registerObservable(Observer obj)

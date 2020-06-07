@@ -5,6 +5,8 @@ Proxy design pattern
 
 Proxy provides a surrogate or placeholder for another object in order to control access to it.
 
+Pattern type - Structural
+
 ### Details
 
 Proxy is about controlling an access. Not to confuse with adapter pattern, which is intended 

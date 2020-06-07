@@ -17,17 +17,17 @@ This pattern works nicely with dependency injection.
 
 ![](strategy_uml.png)
 
-Strategy focus on a composition over inheritance in order to effectively reuse code.
+Strategy focuses on a composition over inheritance in order to effectively reuse code.
 
 ### Example implementation
 
 In an implemented example, IShape interface is defined, providing methods ``getCircumference``
 and ``getArea``. Interface is implemented by ``Circle`` and ``Rectangle`` classes, which
-calculate area and circumference accordingly to class specific shapes.
-``ShapesBox`` is a class, which object accepts list of IShape compatible objects, and
+calculate area and circumference accordingly to class specific shapes.  
+``ShapesBox`` is a class which object accepts list of IShape compatible objects and
 implements method ``getShapesTotalArea``. It iterates over list of objects and calls
 ``getArea`` method on each of it, summing all values.
-From ``ShapesBox`` perspective it doesnt's matter what's concrete object it is dealing with,
+From ``ShapesBox`` perspective it doesnt's matter what's concrete object it is dealing with
 as all of them implement unified interface.
 
 Execute ``make`` to compile. 

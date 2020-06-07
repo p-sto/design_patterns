@@ -6,6 +6,7 @@ Command design pattern
 Command pattern encapsulates a request as an object thereby letting you parametrize
 other objects with different requests, queue or log requests, and **supports undoable operations**.
 
+Pattern type - Behavioral
 
 ### Details
 
