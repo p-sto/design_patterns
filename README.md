@@ -28,7 +28,7 @@ Additonal notes and reflections regarding design patterns are [here](patterns/no
 - [X] [Template Method](patterns/12_Template_Method/description.md)
 - [X] [Composite](patterns/13_Composite/description.md)
 - [X] [Iterator](patterns/14_Iterator/description.md)
-- [ ] [State]()
+- [X] [State](patterns/15_State/decription.md)
 - [ ] [Null Object]()
 - [ ] [Visitor]()
 - [ ] [Flyweight]()
@@ -64,3 +64,4 @@ Focusing on communication between objects
 - [Observer](patterns/2_Observer/description.md)  
 - [Command](patterns/7_Command/description.md)
 - [Template Method](patterns/12_Template_Method/description.md)
+- [State](patterns/15_State/decription.md)
