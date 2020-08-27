@@ -31,7 +31,7 @@ Additonal notes and reflections regarding design patterns are [here](patterns/no
 - [X] [State](patterns/15_State/decription.md)
 - [X] [Null Object](patterns/16_Null_Object/decription.md)
 - [X] [Visitor](patterns/17_Visitor/description.md)
-- [ ] [Flyweight]()
+- [X] [Flyweight](patterns/18_Flyweight/description.md)
 - [ ] [Chain of responsibility]()
 - [ ] [Prototype]()
 - [ ] [Builder]()
@@ -56,6 +56,7 @@ Focusing on relationships between objects
 - [Proxy](patterns/10_Proxy/description.md)
 - [Bridge](patterns/11_Bridge/description.md)
 - [Composite](patterns/13_Composite/description.md)
+- [Flyweight](patterns/18_Flyweight/description.md)
 
 ##### Behavioral:
 Focusing on communication between objects
