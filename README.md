@@ -32,7 +32,7 @@ Additonal notes and reflections regarding design patterns are [here](patterns/no
 - [X] [Null Object](patterns/16_Null_Object/decription.md)
 - [X] [Visitor](patterns/17_Visitor/description.md)
 - [X] [Flyweight](patterns/18_Flyweight/description.md)
-- [ ] [Chain of responsibility]()
+- [X] [Chain of responsibility](patterns/19_Chain_of_responsibility/description.md)
 - [ ] [Prototype]()
 - [ ] [Builder]()
 - [ ] [Mediator]()
@@ -68,3 +68,4 @@ Focusing on communication between objects
 - [State](patterns/15_State/decription.md)
 - [Null Object](patterns/16_Null_Object/decription.md)
 - [Visitor](patterns/17_Visitor/description.md)
+- [Chain of responsibility](patterns/19_Chain_of_responsibility/description.md)
