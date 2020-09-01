@@ -33,7 +33,7 @@ Additonal notes and reflections regarding design patterns are [here](patterns/no
 - [X] [Visitor](patterns/17_Visitor/description.md)
 - [X] [Flyweight](patterns/18_Flyweight/description.md)
 - [X] [Chain of responsibility](patterns/19_Chain_of_responsibility/description.md)
-- [ ] [Prototype]()
+- [X] [Prototype](patterns/20_Prototype/description.md)
 - [ ] [Builder]()
 - [ ] [Mediator]()
 - [ ] [Interpreter]()
@@ -46,6 +46,7 @@ Dealing with problem of creating objects
 - [Factory](patterns/4_Factory/description.md)
 - [Abstract Factory](patterns/5_Abstract_Factory/description.md)
 - [Singleton](patterns/6_Singleton/description.md)  
+- [Prototype](patterns/20_Prototype/description.md)
 
 ##### Structural:
 Focusing on relationships between objects
