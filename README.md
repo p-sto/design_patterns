@@ -34,7 +34,7 @@ Every pattern can be compiled by calling `make` command in pattern's main direct
 - [X] [Flyweight](patterns/18_Flyweight/description.md)
 - [X] [Chain of responsibility](patterns/19_Chain_of_responsibility/description.md)
 - [X] [Prototype](patterns/20_Prototype/description.md)
-- [ ] [Builder]()
+- [X] [Builder](patterns/21_Builder/description.md)
 - [ ] [Mediator]()
 - [ ] [Interpreter]()
 - [ ] [Memento]()
@@ -47,6 +47,7 @@ Dealing with problem of creating objects
 - [Abstract Factory](patterns/5_Abstract_Factory/description.md)
 - [Singleton](patterns/6_Singleton/description.md)  
 - [Prototype](patterns/20_Prototype/description.md)
+- [Builder](patterns/21_Builder/description.md)
 
 ##### Structural:
 Focusing on relationships between objects
