@@ -19,17 +19,17 @@ which are somehow related and can only co-exists in specific configuration.
 
 Relation between engine and transmission can be a good example. It's popular for
 car manufacturers to offer specific engines with specific transmissions.
-Let's define an interface `IMotorSystem` which will provide methods `getEngine()`
-and `getTransmission()`. Next we'll define `Engine` and `Transmission`
+An interface `IMotorSystem` provides methods `getEngine()`
+and `getTransmission()`. `Engine` and `Transmission` define
 abstract classes from which particular implementations will inherit.
 
-Lets define 3 motors:
+Heaving 3 motors:
  - small
  - medium
  - big
  
-Small one will work only with 5 speed manual gearbox, medium with 6 speed manual
-while biggest engine will be available either with 6 speed manual or 
+Small one works only with 5 speed manual gearbox, medium with 6 speed manual
+while biggest engine is available either with 6 speed manual or 
 7 speed automatic.
 
 As it's shown, some objects (engine types and transmission) can only work together

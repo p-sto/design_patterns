@@ -5,7 +5,7 @@ Prototype design pattern
 
 Allows to copy existing objects without making code dependencies on their classes.
 
-Pattern type: creational
+Pattern type - Creational
 
 ### Details
 
@@ -19,6 +19,6 @@ Class `Clonable` defines an interface for clone method.
 Class `Client` defines abstract class for general clients and it implements `Clonable` interface.  
 `ClientA` and `ClientB` are classes inheriting  from `Client` thus implementing `Clonable`.
 
-Clone of each client object can be created by calling `clone()` method of each client.
+Clone of each client object can be done by calling `clone()` method of each client.
 
 In UML diagram `Prototype` is what `Clonable` represents in my code. 

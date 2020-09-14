@@ -17,19 +17,15 @@ implementation of implementor.
 
 Bridge can be used when we are willing to have a (set of) concrete
 implementation(s) of abstraction using some interface(s) for which
-different implementation may exists as well.
+different implementations may exists as well.
 
 ![](bridge.png)
 
-It's similar to Strategy pattern though Strategy is behavioral
-pattern and Bridge is Structural. While Strategy is used to 
-switch between separate implementations (e.g of algorithm) within some
-context (abstraction), Bridge allows to change interfaces
-and abstractions independently.
+Compared to Strategy it allows to change interfaces and abstractions independently
+while Strategy allows to separate implementations (e.g. of an algorithm).
 
 ### Example implementation
 
-Imagine we are designing service gathering builds data from deployment
-service (e.g. Jenkins, QuickBuild). Our abstraction is `Build` class
-where concrete class represents specific builds types. Implementor
-is `Source` which is inherited by specific source.
+Heaving a service gathering builds from deployment services (Jenkins, QuickBuild),
+we can implement `Build` which has a `Source` type property (representing implementor).
+`Build` abstraction is loosely coupled with `Source` and these two can change independently.

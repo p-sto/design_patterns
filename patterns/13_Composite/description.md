@@ -7,6 +7,8 @@ Composes objects into tree structures to represent
 part-whole hierarchies. Composite let's clients treat individual
 objects and composition of objects - uniformly.
 
+Pattern type - Structural
+
 ### Details
 
 Composite is useful when we have to deal either with collections
@@ -17,8 +19,6 @@ to treat aggregated and singular objects the same way.
  
 It can be used every time we deal with tree like hierarchy
 and something-has-something relation.
-
-Pattern type - Structural
 
 ### Example implementation
 

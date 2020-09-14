@@ -6,6 +6,8 @@ Null Object design pattern
 Encapsulate the absence of an object by providing a substitutable
 alternative that offers suitable default do nothing behavior.
 
+Pattern type - Behavioral
+
 ### Details
 
 Null design pattern implements do-nothing-behaviour for defined interface.

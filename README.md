@@ -1,16 +1,16 @@
 Design patterns
 ===============
 
-Implementation of design patterns in C++17 and compiled with G++.
+Implementation of design patterns in C++17, compiled with g++.
 
 Inspired by series of Christopher Okhravi's [videos](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
-which are based on book ``Head first - design patterns``. Some additional
-patterns included (not covered in video series).
+which are based on book ``Head first - design patterns``.  
+All design patterns from original book by gang of four - `Design Patterns, Elements of Reusable Object-Oriented Software`
+are implemented in this repo (or rather - soon be!).
 
-General goal for ths repo is to refresh some knowledge, have personal point
-of reference and have fun with C++ :)
+Notes, reflections and personal opinions regarding patterns are [here](patterns/notes.md).
 
-Additonal notes and reflections regarding design patterns are [here](patterns/notes.md).
+Every pattern can be compiled by calling `make` command in pattern's main directory.
 
 ### Table of contents:
 
@@ -66,6 +66,7 @@ Focusing on communication between objects
 - [Observer](patterns/2_Observer/description.md)  
 - [Command](patterns/7_Command/description.md)
 - [Template Method](patterns/12_Template_Method/description.md)
+- [Iterator](patterns/14_Iterator/description.md)
 - [State](patterns/15_State/decription.md)
 - [Null Object](patterns/16_Null_Object/decription.md)
 - [Visitor](patterns/17_Visitor/description.md)

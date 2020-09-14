@@ -6,7 +6,7 @@ Flyweight design pattern
 Provides ways to decrease object count thus improving application required objects structure.
 Flyweight pattern is used when we need to create a large number of similar objects.
 
-Structural design pattern.
+Pattern type - Structural
 
 ### Details
 
@@ -39,12 +39,12 @@ Idea is that interpreter (process) pre-allocates some memory for objects to have
 instantiate/create new ones quickly. 
 
 In a given example new objects of `IListObject` type are created within `FreeList`.
-During initialization, given amount of not used `IListObject` are created and cached.
+During initialization given amount of not used `IListObject` are created and cached.
 By calling method `getNew()` of `FreeList` object, reference count of `IListObject` is increased
 and point to created object is returned.
 If object is removed (by calling `deleteObject()` method) it's reference count is set to 0.
 In fact object is not destroyed at all, but can be reused by `FreeList` if, however,
-there are no free (reusable) object in free list, allocation exception is raised.
+there are no free (reusable) objects in free list, allocation exception is raised.
 
 Other example might be how number from range -5...256 are "pre cached" in Python's
 interpreter.

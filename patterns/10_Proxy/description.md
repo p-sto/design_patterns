@@ -9,8 +9,7 @@ Pattern type - Structural
 
 ### Details
 
-Proxy is about controlling an access. Not to confuse with adapter pattern, which is intended 
-to access specific interface with an interface which is not compatible.
+Proxy is about controlling an access.
 
 Variations of pattern:
 
@@ -30,7 +29,7 @@ Proxy class has to implement the same interface as targeted object.
 
 ### Example implementation
 
-As an example we'll be implementing client for `AssetManager` which will
-provide some `Asset` objects. Access  to this manager will be controlled via `AssetManagerAccessProxy`.
-Only authorised clients will be able to access assets.
+`AssetManager` class provides some `Asset` objects.
+Access to this manager is controlled via `AssetManagerAccessProxy`.
+Only authorised clients are able to access assets.
         

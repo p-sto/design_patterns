@@ -6,6 +6,8 @@ Visitor design pattern
 Allows to separate an algorithm from an object structure on which it operates.
 A practical result of this separation is the ability to add new operations to existing object structures without modifying the structures.
 
+Pattern type - Behavioral
+
 ### Details
 
 ![](visitor.png)
@@ -13,13 +15,11 @@ A practical result of this separation is the ability to add new operations to ex
 Visitor defines an interface which being implemented by subclasses allows
 to extend existing client's interface without modifying its code.
 
-It allows to add methods co classes of different types without much
-altering to those classes.
+It allows to add methods to classes of different types without much
+altering to those classes. Usage of different methods depending on used
+classes may be performed.
 
-You can make completely different methods depending on the classes used.
-
-Allows to define external classes that can extend other class without
-majorly editing them.
+Allows to define external classes that can extend other class without majorly editing them.
 
 ### Example implementation
 

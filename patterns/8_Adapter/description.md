@@ -22,14 +22,10 @@ without reworking clients.
 
 ### Example implementation
 
-We wish to create a class which allows client implementing some specific interface
-to delegate request via adapter to use different interface flawlessly.
-
 This pattern is very useful in a situation when interface changes and for some
 reason we cannot modify client e.g. we have some legacy code (or vice versa).
 
-Let's imagine HDMI to DVI converter (very real case shown in software domain).
-We'll define `IHDMI` and client implementing this interface.
-Next we'll have some `IDVI` object which we wish to cooperate with.
-To make such relation work we'll create `HDMItoDVI` adapter.
-Cour client will be named `HDMIMonitorClient` and our adaptee will be `DVIComputer`.
+Imagine HDMI to DVI converter (very real case shown in software domain).
+`IHDMI` defines an interface for HDMI device, similarly `IDVI`. 
+To allow communication between HDMI and DVI devices `HDMItoDVI` adapter is needed.
+`HDMIMonitorClient` represents client and adaptee is `DVIComputer`.

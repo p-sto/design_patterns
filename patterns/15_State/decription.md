@@ -6,6 +6,8 @@ State design pattern
 Allows an object to alter its behaviours when its internal state changes.
 The object will appear to change class.
 
+Pattern type - Behavioral
+
 ### Details
 
 Context is the thing that can have state.  

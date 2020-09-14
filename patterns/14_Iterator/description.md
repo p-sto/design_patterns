@@ -6,6 +6,8 @@ Iterator design pattern
 Provides a way to access the elements of an aggregate objects sequentially without exposing 
 its underlying representation.
 
+Pattern type - Behavioral
+
 ### Details
 
 Providing iteration functionality:
@@ -21,7 +23,7 @@ UML diagram:
 
 Aggregate is also known as Iterable or Enumer (while Iterator may be named Enumerator).
 `Next()` method can either modify Iterator or return a new one, it depends on
-implementation a philosophy - making Iterator a immutable object might be better.
+implementation philosophy - making Iterator a immutable object might be better in some situations.
 
 The left hand side of diagram - Aggregate (interface) and ConcreteAggregate acts
 as a Factory method pattern.

@@ -12,28 +12,25 @@ Pattern type - Behavioral
 ### Details
 
 This pattern focuses on `push` architecture instead of pooling. We distinguish observable
-(aka subject) and observer(s) object.
+(aka subject) and observer object(s).
 
 ![](observer_uml.png)
 
 ### Example implementation
 
-Imagine a process which need to perform some calculations. Due to heaviness of a task,
+Imagine a process which needs to perform some calculations. Due to heaviness of a task,
 results cannot be provided instantly and in general it's hard to estimate expected time
-of arrival. In this case, process performing computing will be regarded
+of arrival. In such case process performing computations will be regarded
 as an observable and it's responsibility is to notify when computing finishes.
 
-Process will have an interface - `IComputingProcess` and it'll provide methods:
+Process object - `ComputingProcess`, implements an interface - `IComputingProcess` which provides methods:
 * registerObservable(Observer obj)
 * removeObservable(Observer obj)
 * notify()
 
-`IComputingProcess` will be implemented by concrete class named `ComputingProcess`.
+`ComputingProcess` takes `computes_count` as an argument in it's constructor
+(there's some loop to model computational time).
 
-`ComputingProcess` will take as an argument `computes_count`, which will be just some
-fake data to "model" calculations (in fact it'll perform some loop run with delay).
-
-ProcessClient (observer) class implements `IProcessClient` interface, which provides method
-`update()`.
-
-Execute ``make`` to compile. 
+`ProcessClient` (observer) class implements `IProcessClient` interface which provides method
+`update()`. When `ComputingProcess` object finishes computations it'll call `update()`
+method (push architecture) on client.

@@ -15,9 +15,9 @@ without modifying it's implementation. At the same time, decorator (an object ak
 has to be of a type of decorated object as it's interchangeable with it.
 
 What's kind of unique for this pattern is that is has to implement interface of
-a object type it has to decorate but it also has an object it decorates.
+a object type it has to decorate but it also has an object it decorates. So it
+uses both inheritance and composition.
 
-UML:
 
 ![](decorator.gif) 
 
@@ -35,13 +35,10 @@ of a car and client can equip it with some additional options. Base car version
 offer may be treated as a fundamental object (implementing ``IOffer`` interface)
 and all additional options (e.g. LED headlights) can be treated as decorators.
 
-There'll be also a ``OfferSpecification`` class, which will contain information about all
-included amenities - TBD.
-
----
 
 #### Important note
 
-Some languages e.g. Python or Java have a "decorators" but please
-not confuse it with this pattern. It's only some syntax sugar which at the first
-glance may look like some language-supported decorator pattern built-in, but it's not. 
+Some languages e.g. Python or Java have "decorators" but these should
+not be confused with patterns itself. These do provide similar
+functionality, though it's only some syntax sugar for easier
+method/function response modification.
