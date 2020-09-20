@@ -35,7 +35,7 @@ Every pattern can be compiled by calling `make` command in pattern's main direct
 - [X] [Chain of responsibility](patterns/19_Chain_of_responsibility/description.md)
 - [X] [Prototype](patterns/20_Prototype/description.md)
 - [X] [Builder](patterns/21_Builder/description.md)
-- [ ] [Mediator]()
+- [X] [Mediator](patterns/22_Mediator/description.md)
 - [ ] [Interpreter]()
 - [ ] [Memento]()
 
@@ -59,6 +59,7 @@ Focusing on relationships between objects
 - [Bridge](patterns/11_Bridge/description.md)
 - [Composite](patterns/13_Composite/description.md)
 - [Flyweight](patterns/18_Flyweight/description.md)
+- [Mediator](patterns/22_Mediator/description.md)
 
 ##### Behavioral:
 Focusing on communication between objects
